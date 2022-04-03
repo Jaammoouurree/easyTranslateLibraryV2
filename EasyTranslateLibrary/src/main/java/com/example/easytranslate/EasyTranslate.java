@@ -56,7 +56,7 @@ public class EasyTranslate {
         this.toLanguage = toLanguage;
 
         //Get input text to be translated:
-
+        //CHECKING OF AVAILABLE LANGUAGE
 
         if (checkInternetConnection()) {
 
