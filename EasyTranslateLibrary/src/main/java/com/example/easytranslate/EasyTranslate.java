@@ -32,7 +32,6 @@ public class EasyTranslate {
 
 
     public void getTranslateService() {
-
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
 
@@ -63,7 +62,7 @@ public class EasyTranslate {
 
             //If there is internet connection, get translate service and start translation:
             getTranslateService();
-            Translation translation = translate.translate(toBeTranslated, Translate.TranslateOption.sourceLanguage(fromLanguange), Translate.TranslateOption.targetLanguage("tr"), Translate.TranslateOption.model("base"));
+            Translation translation = translate.translate(toBeTranslated, Translate.TranslateOption.sourceLanguage(fromLanguange), Translate.TranslateOption.targetLanguage(toLanguage), Translate.TranslateOption.model("base"));
             translatedText = translation.getTranslatedText();
 
             //Translated text and original text are set to TextViews:
