@@ -13,3 +13,6 @@ Libraries integrated:
 Chaquopy 
 Google Trans Py 
 Google Translator
+
+ implementation 'com.github.Jaammoouurree:easytranslatelibraryv2:1.0.4'
+    implementation 'com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava'
