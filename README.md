@@ -14,14 +14,20 @@ Chaquopy
 Google Trans Py 
 Google Translator
 
- implementation 'com.github.Jaammoouurree:easytranslatelibraryv2:1.0.4'
-    implementation 'com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava'
+### Gradle Setup
 
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-        maven { url 'https://jitpack.io' }
-        jcenter() // Warning: this repository is going to shut down soon
-    }
+```gradle
+repositories {
+     mavenCentral()
+     google()
+     maven { url 'https://jitpack.io' }
+     jcenter()
 }
+
+dependencies {
+     implementation 'com.github.Jaammoouurree:easytranslatelibraryv2:1.0.4'
+     implementation 'com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava'
+}
+```
+
+
