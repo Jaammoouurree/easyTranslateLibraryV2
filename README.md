@@ -9,9 +9,9 @@ With google-trans and google_translator, this library will help you translate ph
 and in order to use them in android environment, you will need to import may plugins to support python working in android environment, with this, it is simplified
 
 ### Libraries integrated
-1.[Chaquopy] 
-1.[Google Trans Py] 
-1.[Google Translator]
+1. [Chaquopy] 
+1. [Google Trans Py] 
+1. [Google Translator]
 
 ### Gradle Setup
 
